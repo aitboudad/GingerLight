@@ -24,7 +24,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
     {
         $text   = 'The smelt of fliwers bring back memories.';
         $result = $this->parser->parse($text);
-        var_dump($result);die;
+
         $this->assertEquals($text, $result['text']);
         $this->assertEquals('The smell of flowers brings back memories.', $result['result']);
         $this->assertEquals(3, count($result['corrections']));
