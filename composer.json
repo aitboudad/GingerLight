@@ -1,0 +1,20 @@
+{
+    "name": "aitboudad/ginger-tea",
+    "description": "Corrects spelling and grammar mistakes based on the context of complete sentences for PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdellatif Ait boudad",
+            "email": "a.aitboudad@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "guzzle/guzzle": ">=3.0, <3.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "GingerLight": "src"
+        }
+    }
+}
