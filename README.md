@@ -12,7 +12,8 @@ GingerLight works with PHP 5.3.3 or later.
 ```php
 $text   = 'The smelt of fliwers bring back memories.';
 $parser = new GingerLight\Parser();
-$parser->parse($text);
+$result = $parser->parse($text);
+print_r($result);
 ```
 
 ```
